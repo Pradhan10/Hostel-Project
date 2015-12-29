@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;awt.sfsadfsaf.java&apos; to &apos;First.java&apos;&#x0A;- Original project: &apos;JavaAwT&apos;&#x0A;- Original element: &apos;awt.sfsadfsaf.java&apos;&#x0A;- Renamed element: &apos;awt.First.java&apos;" description="Rename compilation unit &apos;sfsadfsaf.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;awt{sfsadfsaf.java" name="First.java" references="false" stamp="1449678913034" version="1.0"/>
+</session>

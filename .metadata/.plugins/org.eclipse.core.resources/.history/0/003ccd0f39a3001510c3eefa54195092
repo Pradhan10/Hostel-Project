@@ -1,0 +1,73 @@
+package rishi;
+import java.io.Serializable;
+import java.util.Scanner;
+
+class Menu 
+{
+	public static void main(String[] args) 
+	{
+		String Program_exit1;
+		String Program_exit2 = new String("y");
+		String Program_exit3 = new String("Y");
+		System.out.println("*******WELCOME*******");
+		do 
+		{
+			Scanner sc = new Scanner(System.in);
+			int choice;
+			System.out.println("Enter Your Choice\n1:\tCreate Record\n2:\tUpdate Record\n3:\tDisplay Records\n4:\tDelete Record");
+			System.out.print("Choice:");
+			try 
+			{
+				choice = sc.nextInt();
+				switch (choice) 
+				{
+					case 1:
+					Student S1 = new Student();
+					S1.StudentInfo();
+					// Update Rec
+					case 2:
+				}
+			
+				System.out.println("Do You wish to Continue ? [y/n]");
+				Program_exit1 = sc.next();
+			}
+			catch(Exception e)
+			{
+				System.out.println("Please Enter Integer input ");
+				Program_exit1="y";
+				
+			}
+		} while (Program_exit1.equals(Program_exit2)||Program_exit1.equals(Program_exit3));
+	}
+	System.out.println("EXIT!");
+}
+
+class Student implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	Scanner sc = new Scanner(System.in);
+	private String name;
+	private String Mobileno;
+	private String Mname;
+	private String Fname;
+	private String Address;
+
+	public void StudentInfo() {
+		System.out.print("Please Enter your name :");
+		name = sc.next();
+		System.out.print("Enter mobile Number:");
+		Mobileno = sc.next();
+		System.out.print("Enter Mother's name:");
+		Mname = sc.next();
+		System.out.print("Enter Father's name:");
+		Fname = sc.next();
+		System.out.print("Enter Address:");
+		Address = sc.next();
+
+	}
+	
+	
+
+}

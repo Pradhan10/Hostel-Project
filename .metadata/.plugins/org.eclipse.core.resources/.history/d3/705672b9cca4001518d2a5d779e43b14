@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package rishi;
+
+/**
+ * @author XmenR
+ * Program To check Validity of a person name :
+ * 1: Name must contain Surname
+ *
+ */
+public class NameValidity {
+	public void NameCheck (String name) {
+		int i=name.length();
+		while(!=null){
+			
+		}
+	}
+
+}
